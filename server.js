@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 app.use(cors({
     origin: 'https://expenses-frontend-manjusha1002s-projects.vercel.app/',
-    credentials: true
+    credentials: false
 }));
 app.use(express.json());
 
